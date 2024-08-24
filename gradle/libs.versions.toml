@@ -1,0 +1,8 @@
+[versions]
+java = "11"
+spotless = "6.25.0"
+assertj = "3.26.3"
+
+[libraries]
+spotless = { module = "com.diffplug.spotless:spotless-plugin-gradle", version.ref = "spotless" }
+assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }
